@@ -112,14 +112,14 @@ interface RuleInterface extends ExtensibleDataInterface
     public function setDescription($description);
 
     /**
-     * Retrieve the start date when the coupon is active
+     * Retrieve the start date when the rule is active
      *
      * @return string|null
      */
     public function getFromDate();
 
     /**
-     * Set the star date when the coupon is active
+     * Set the star date when the rule is active
      *
      * @param string $fromDate
      * @return $this
@@ -127,14 +127,14 @@ interface RuleInterface extends ExtensibleDataInterface
     public function setFromDate($fromDate);
 
     /**
-     * Retrieve the end date when the coupon is active
+     * Retrieve the end date when the rule is active
      *
      * @return string|null
      */
     public function getToDate();
 
     /**
-     * Set the end date when the coupon is active
+     * Set the end date when the rule is active
      *
      * @param string $toDate
      * @return $this
