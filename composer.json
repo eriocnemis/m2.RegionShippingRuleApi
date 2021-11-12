@@ -3,10 +3,12 @@
     "description": "The module serves as application program interface (API) responsible for functionality of shipping rules manage as well as bulk operations.",
     "type": "magento2-module",
     "version": "2.4.1",
-    "authors": [{
-        "name": "Eriocnemis Team",
-        "email": "dev.eriocnemis@gmail.com"
-    }],
+    "authors": [
+        {
+            "name": "Eriocnemis Team",
+            "email": "dev.eriocnemis@gmail.com"
+        }
+    ],
     "license": [
         "OSL-3.0"
     ],
@@ -17,10 +19,10 @@
     },
     "autoload": {
         "files": [
-            "registration.php"
+            "src/registration.php"
         ],
         "psr-4": {
-            "Eriocnemis\\RegionShippingRuleApi\\": ""
+            "Eriocnemis\\RegionShippingRuleApi\\": "src"
         }
     }
 }
