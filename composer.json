@@ -2,25 +2,28 @@
     "name": "eriocnemis/module-region-shipping-rule-api",
     "description": "The module serves as application program interface (API) responsible for functionality of shipping rules manage as well as bulk operations.",
     "type": "magento2-module",
-    "version": "2.3.1",
-    "authors": [{
-        "name": "Eriocnemis Team",
-        "email": "dev.eriocnemis@gmail.com"
-    }],
+    "version": "2.3.2",
+    "authors": [
+        {
+            "name": "Eriocnemis Team",
+            "email": "dev.eriocnemis@gmail.com"
+        }
+    ],
     "license": [
         "OSL-3.0"
     ],
     "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0",
         "magento/framework": "102.0.*",
         "magento/module-webapi": "100.3.*",
-        "eriocnemis/module-region-api": "2.3.*"
+        "eriocnemis/module-region-api": "2.3.2"
     },
     "autoload": {
         "files": [
-            "registration.php"
+            "src/registration.php"
         ],
         "psr-4": {
-            "Eriocnemis\\RegionShippingRuleApi\\": ""
+            "Eriocnemis\\RegionShippingRuleApi\\": "src"
         }
     }
 }
